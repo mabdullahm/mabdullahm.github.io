@@ -114,6 +114,20 @@ const Image = (props) => {
           }
         }
       }
+      logod: file(relativePath: { eq: "logod.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1200) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      websitz: file(relativePath: { eq: "websitz.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1200) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `)
   const img = data[props.name];

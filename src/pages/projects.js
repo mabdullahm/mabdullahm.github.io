@@ -14,7 +14,7 @@ const EdsPage = (props) => {
       <SEO title="Home" />
       <PageStyled bg={['#d0f0fb', '#F7FCFF']}>
         <PageStyled.Content>
-          <Text.Hero>Web, App and Logo<strong> Design Projects</strong></Text.Hero>
+          <Text.Hero>Web and Logo<strong> Design Projects</strong></Text.Hero>
           <DocsStyled>
             <Image name='projects' width={700} />
           </DocsStyled>
@@ -23,55 +23,38 @@ const EdsPage = (props) => {
       <PageStyled.Content2>
         <Folio>
           <Folio.Overview>
-            <strong>Overview</strong>
-            With the growth of the educative team, it became increasingly important to maintain a
-            consistent style and visual language across all areas of the product. We needed more
-            systematic ways to guide and leverage our collective efforts. The initial outcome was to
-            have a collection of reusable components, guided by clear principles, that can be combined
-            together to create as simple and as complex experiences, as needed.
+            <strong>Web Design</strong>
+            I started my UI/UX design journey with web design. I took a course on udemy that taught creating web designs
+            and freelancing on platforms like 99designs and designcontest. It was a passion for detail that drove me to win many contests.
           </Folio.Overview>
           <Folio.Role>
-            <strong>Company</strong>
-            Polycons
+            <strong>Platform</strong>
+            Design Contest
             <strong>Role</strong>
-            Creator
+            Web Designer
             <strong>Timeline</strong>
-            December 2019 - Present
+            July 2015 - June 2018
           </Folio.Role>
         </Folio>
+        <Image name='websitz' width={700} />
+        <Folio>
+          <Folio.Overview>
+            <strong>Logo Design</strong>
+            I am a fond of creating logos with different concepts even if they're not proper products. To me
+            a logo is the very start of the vision of any product. The more it aligns to the goals, culture and
+            values, the more meaningful it becomes.
+          </Folio.Overview>
+          <Folio.Role>
+            <strong>Platform</strong>
+            Fiverr
+            <strong>Role</strong>
+            Logo Designer
+            <strong>Timeline</strong>
+            September 2019 - December 2019
+          </Folio.Role>
+        </Folio>
+        <Image name='logod' width={700} />
       </PageStyled.Content2>
-      <PageStyled bg={['#F7FCFF', '#F7FCFF']}>
-        <PageStyled.Content2>
-          <Folio>
-            <Folio.Description>
-              <Text.Hero left><strong>Preview</strong></Text.Hero>
-            </Folio.Description>
-          </Folio>
-        </PageStyled.Content2>
-      </PageStyled>
-      <PageStyled.Content2>
-        <Folio>
-          <Folio.Description>
-            <Text.Hero left><strong>Problem</strong></Text.Hero>
-          </Folio.Description>
-        </Folio>
-        <Folio>
-          <Folio.Description>
-            <Text.Hero left><strong>Solution</strong></Text.Hero>
-          </Folio.Description>
-        </Folio>
-        <Folio>
-          <Folio.Description>
-            <Text.Hero left><strong>Challenges</strong></Text.Hero>
-          </Folio.Description>
-        </Folio>
-        <Folio>
-          <Folio.Description>
-            <Text.Hero left><strong>Key Learnings</strong></Text.Hero>
-          </Folio.Description>
-        </Folio>
-      </PageStyled.Content2>
-
     </Layout>
   )
 }

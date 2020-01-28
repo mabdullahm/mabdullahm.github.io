@@ -57,7 +57,7 @@ const IndexPage = (props) => {
         <TileStyled.Tiles>
           <Tile
             path='/projects'
-            heading="Design Projects - Web, App and Logo"
+            heading="Design Projects - Web and Logo"
             description="Freelance projects with various clients on and off platforms that include designContest, 99designs and fiverr."
             bg={['#e2f8ff', '#F7FCFF']}
             image={projectsLogo}

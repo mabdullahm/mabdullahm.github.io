@@ -25,7 +25,11 @@ const AboutPage = (props) => {
     </PageStyled>
     <PageStyled.Content2>
       <Image name='me' width={800} margin="15px 0px 30px" />
-      I was always an artist
+      I am a passionate designer and front-end developer who believes in staying positive and optimistic
+      in various highs and lows of work life. I take society's issues as opportunities for a better future
+      and believe in action. My passion for work is derived from healthy and constructive environments
+      which instils in me the drive to be the source of that positivity.
+      Apart from work, I love to read; create music (I have a home studio); play cricket and scribble sketches.
       <Text.Hero style={{ margin: '60px 0px 40px'}} dark><strong>Artwork</strong></Text.Hero>
       <TileStyled.Tiles>
         <Image name='art1' width={285} margin="0px 10px 10px 0px" opacity={0.7} maxWidth />
