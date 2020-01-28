@@ -24,9 +24,12 @@ const EdsPage = (props) => {
         <Folio>
           <Folio.Overview>
             <strong>Overview</strong>
-            acefqfq fqwfqwfqw fqwfqwfqwfqwf qwfqwfq wfqwfqwfq wfqwfqfq wfqwfqwfqwf qwfqwfqwf qwfqwfq
-            acefqfq fqwfqwfqw fqwfqwfqwfqwf qwfqwfq wfqwfqwfq wfqwfqfq wfqwfqwfqwf qwfqwfqwf qwfqwfq
-            acefqfq fqwfqwfqw fqwfqwfqwfqwf qwfqwfq wfqwfqwfq wfqwfqfq wfqwfqwfqwf qwfqwfqwf qwfqwfq
+            Being a part of a dynamic team wearing different hats - sometimes as a developer or a designer, I realized a major factor that
+            slowed down my progress. That factor was lack of standardisation. I was unable to get free matching styles icons at times. This problem
+            lead to a basic idea of me creating a library of icons for myself. As my dev progress also enhanced, I realized the power of svg
+            code and found a way to style those icons according to my personal changes globally using scripts. The idea for polycons came into
+            being. I designed an interface and am currently working on it's development to aid designers and developers both to set their own style
+            preferences to get a batch of ready-made free icons for any of their projects. 
           </Folio.Overview>
           <Folio.Role>
             <strong>Company</strong>
@@ -43,7 +46,7 @@ const EdsPage = (props) => {
           <Folio>
             <Folio.Description>
               <Text.Hero left><strong>Preview</strong></Text.Hero>
-              <Image name='presso' width={700} />
+              <Image name='polyconss' width={700} />
             </Folio.Description>
           </Folio>
         </PageStyled.Content2>

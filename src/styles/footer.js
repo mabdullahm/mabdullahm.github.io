@@ -24,6 +24,7 @@ Footer.Desc = styled.div`
   font-size: 16px;
   text-align: center;
   max-width: 450px;
+  margin-bottom: 30px;
 `;
 
 Footer.Icons = styled.div`

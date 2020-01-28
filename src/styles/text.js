@@ -24,6 +24,14 @@ Text.Hero = styled.h1`
   ${props => props.left && css`
     text-align: left;
   `}
+
+  ${props => props.dark && css`
+    strong {
+      background: linear-gradient(to right, #b941b2, #ea9ee7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  `}
 `;
 
 Text.Heading = styled.div`

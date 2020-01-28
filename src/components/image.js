@@ -107,6 +107,13 @@ const Image = (props) => {
           }
         }
       }
+      polyconss: file(relativePath: { eq: "poly.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1200) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `)
   const img = data[props.name];
@@ -116,6 +123,7 @@ const Image = (props) => {
       fluid={img.childImageSharp.fluid}
       style={{
         minWidth: `${props.width}px`,
+        maxWidth: props.maxWidth && `${props.width}px`,
         margin: props.margin,
         opacity: props.opacity,
         width: '100%',

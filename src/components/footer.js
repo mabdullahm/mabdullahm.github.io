@@ -16,12 +16,12 @@ const Footer = (props) => (
         mabdullahm.work@gmail.com
       </LinkStyled>
     </FooterStyled.Desc>
-    <FooterStyled.Icons dark={props.dark}>
+    {/* <FooterStyled.Icons dark={props.dark}>
       <Facebook />
       <Linkedin />
       <GitHub />
       <Instagram />
-    </FooterStyled.Icons>
+    </FooterStyled.Icons> */}
     {props.dark ? smallMountainsDark : smallMountains}
   </FooterStyled>
 )

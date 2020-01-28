@@ -26,12 +26,12 @@ const AboutPage = (props) => {
     <PageStyled.Content2>
       <Image name='me' width={800} margin="15px 0px 30px" />
       I was always an artist
-      <Text.Heading dark>Artwork</Text.Heading>
+      <Text.Hero style={{ margin: '60px 0px 40px'}} dark><strong>Artwork</strong></Text.Hero>
       <TileStyled.Tiles>
-        <Image name='art1' width={285} margin="0px 10px 10px 0px" opacity={0.7} />
-        <Image name='art2' width={500} margin="0px 0px 10px 0px" opacity={0.7} />
-        <Image name='art3' width={500} margin="0px 10px 10px 0px" opacity={0.7} />
-        <Image name='art4' width={285} margin="0px 0px 10px 0px" opacity={0.7} />
+        <Image name='art1' width={285} margin="0px 10px 10px 0px" opacity={0.7} maxWidth />
+        <Image name='art2' width={500} margin="0px 0px 10px 0px" opacity={0.7} maxWidth />
+        <Image name='art3' width={500} margin="0px 10px 10px 0px" opacity={0.7} maxWidth />
+        <Image name='art4' width={285} margin="0px 0px 10px 0px" opacity={0.7} maxWidth />
       </TileStyled.Tiles>
     </PageStyled.Content2>
   </Layout>
